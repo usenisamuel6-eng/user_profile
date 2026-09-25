@@ -51,4 +51,4 @@ include "includes/header.php";
 
 </section>
 
-<?php include "includes/footer.php"; ?>
+<?php include "includes/footer.php";?>
