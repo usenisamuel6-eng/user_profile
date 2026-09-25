@@ -130,8 +130,8 @@ include "../includes/header.php";
     </form>
 
     <div class="auth-footer">
-        Don't have an account?
-        <a href="register.php">Create account</a>
+        Don't have profile?
+        <a href="register.php">Create profile</a>
     </div>
 
 </div>

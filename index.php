@@ -35,7 +35,7 @@ include "includes/header.php";
 
                 <a href="modules/login.php" class="btn btn-primary">
                     <i class="fa-solid fa-right-to-bracket"></i>
-                    Login
+                    View profie
                 </a>
                 
                 <a href="modules/register.php" class="btn btn-light">
