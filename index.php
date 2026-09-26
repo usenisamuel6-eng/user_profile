@@ -5,8 +5,13 @@ $pageTitle = "MyProfile";
 include "includes/header.php";
 
 ?>
-
+ <?php if(isset($_GET['delete_msg'])):?>
+     <div class="alert alert-success">
+           <?php echo $_GET['delete_msg'] ?> 
+        </div> 
+     <?php endif; ?>
 <section class="hero">
+
 
     <div class="hero-content">
 

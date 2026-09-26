@@ -87,6 +87,7 @@ include "../includes/header.php";
         <div class="alert alert-success">
             Account created successfully. You can now login.
         </div>
+       
 
     <?php endif; ?>
 
@@ -97,6 +98,9 @@ include "../includes/header.php";
         </div>
 
     <?php endif; ?>
+
+
+   
 
     <form method="POST">
 

@@ -26,6 +26,6 @@ $stmt1->bind_param("i", $user_id);
 $stmt1->execute();
 
 session_destroy();
-header("Location: ../index.php?msg=" . "Profile deleted successfully");
+header("Location: ../index.php?delete_msg=" . "Profile deleted successfully");
 exit();
 ?>

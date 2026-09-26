@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 25, 2026 at 06:15 PM
+-- Generation Time: Sep 26, 2026 at 11:27 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -49,7 +49,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `full_name`, `email`, `phone`, `gender`, `date_of_birth`, `address`, `city`, `state`, `country`, `pwd`, `profile_image`, `created_at`, `updated_at`) VALUES
-(1, 'samuel useni', 'sam@gmail.com', '09035089400', '', '0000-00-00', '', '', '', 'Nigeria', '$2y$10$Ir.PCqgLiIgdq2yCZqdsgOpFL3NzjgLA4BHj1fGtiXJxJ669kb4hG', 'user_1_6ab546f9ad625.jpg', '2026-09-23 13:22:51', '2026-09-25 14:53:00');
+(1, 'test user_profile', 'test@gmail.com', '09000000000', '', '0000-00-00', '', '', '', 'Nigeria', '$2y$10$Ir.PCqgLiIgdq2yCZqdsgOpFL3NzjgLA4BHj1fGtiXJxJ669kb4hG', 'user_1_6ab82ab6f311b.jpg', '2026-09-23 13:22:51', '2026-09-26 20:27:35');
 
 --
 -- Indexes for dumped tables
@@ -70,7 +70,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
